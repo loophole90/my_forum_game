@@ -1,0 +1,147 @@
+#panel1 {
+    width: 99%;
+    height: 80px;
+    background-color: #393939;
+    border: 5px solid #404040;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#panel2 {
+    width: 99%;
+    height: 100%;
+    background-color: #393939;
+    border: 5px solid #404040;
+    margin-top: 10px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#linkHome{
+    margin-right: auto;
+    font-size: 2em;
+    text-align: left;
+    padding-left: 50px;
+}
+
+#linkHome a{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+  background-image: url('/Image/BG.jpg');
+  background-size: cover;
+}
+
+#LinkRight {
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 2em;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#linkAboutUs a {
+    color: black;
+    text-decoration: none;
+}
+
+#linkLogin, #linkRegister {
+    margin-left: 30px;
+    font-size: 1em;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#linkLogin a, #linkRegister a {
+    color: black;
+    text-decoration: none;
+}
+
+#linkHome a, #linkAboutUs a, #linkLogin a, #linkRegister a {
+    color: black;
+    text-decoration: none;
+    border: 1px solid #565656;
+    padding: 5px 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#linkHome a:hover, #linkAboutUs a:hover, #linkLogin a:hover, #linkRegister a:hover {
+    background-color: #4D4D4C;
+}
+#centerText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+body{
+  font-family: Arial, sans-serif; /* change this font to a font of your choice */
+  background-image: url('C:/MAMP/htdocs/Image/BG.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#linkHome a, #linkAboutUs a, #linkLogin a, #linkRegister a {
+  color: black;
+  text-decoration: none;
+  border: 1px solid #565656;
+  padding: 5px 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+  font-family: 'Futura', sans-serif;
+  font-size: 1em;
+}
+#teh {
+    color: black;
+    text-decoration: none;
+    padding: 20px 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #393939;
+    border: 5px solid #404040;
+    text-align: center;
+    order: -1; /* Move to the top */
+}
+
+#rev {
+    color: black;
+    text-decoration: none;
+    padding: 20px 460px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #393939;
+    border: 5px solid #404040;
+    text-align: center;
+    order: 1; /* Move to the bottom */
+}
+
+#teh, #rev {
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+#teh:hover, #rev:hover {
+  background-color: #40403F;
+  transition: background-color 0.9s ease;
+}
